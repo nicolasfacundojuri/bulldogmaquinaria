@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* probando el git */
+    /* INICIO INDEX */
+html { 
+    height: 100%;
+}
+
+
+body { 
+    min-height: 100%;
+    background-image: url(../img/mensworking.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    gap: 20px;
+    /* grid-template-rows: repeat(3, auto); */
+}
+
+/* cambio del nav. de position a flex */
+.index-header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(232, 224, 11);
+} 
+
+.main-titulo h1{ 
+    display: flex;
+    color: black;
+}
+nav ul { 
+    display: flex;
+}
+
+nav ul li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    font-weight: bold;
+    color: black;
+    justify-content: space-evenly;
+    margin: 5px 4rem 5px 4rem;
+    padding: 5px 0 5px 0;
+}
+/* fin del nav */
+
+/* inicio contenedor principal */
+.main-container { 
+    display: grid;
+    grid-template-columns: 3fr 3fr; 
+    font-style: italic;
+}
+.titulosecundario-index { 
+    font-size: 2rem;
+    color: black;
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+.slogan { 
+    font-size: 1,5rem;
+    color: black;
+}
+.title-news { 
+    background-color: rgb(232, 224, 11);
+    font-size: 2rem ;
+    border-radius: 20px;
+
+}
+.iframe-news{ 
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-content: center;
+    height: 50vh;
+}
+footer { 
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgba(0, 0, 0, 0.622);
+    color: white;
+
+}
+footer h2, h3 { 
+    text-align: center;
+    color: white;
+}
+.logos-items{ 
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.logos-items a i{ 
+    color: white;
+    font-size: 2rem;
+
+}
+/* INICIO CONTACT US */
+
+.body-contacto { 
+    background: url(../img/lawnmowers.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+.contenedor .form { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgba(0, 0, 0, .6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+
+}
+.btn-consulta { 
+    background-color: rgba(255, 255, 0, 0.966);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    height: 30px;
+    
+}
+
+/* INICIO STORE */
+
+.body-productos { 
+    background: url(../img/carpenterbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tabla-maquinaria { 
+    background-color: rgba(245, 245, 220, 0.468);
+    margin-top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 10px 25px 10px 25px;
+    border: solid 5px  rgba(237, 237, 23, 0.826);
+    width: 100%;
+}
+
+thead { 
+    padding: 5px;
+    background-color:  rgba(237, 237, 23, 0.826);
+    color: black;
+
+}
+th, tbody, tr, td, tfoot { 
+    padding: 5px;
+
+}  
+tr td:hover{ 
+    background-color: black;
+}
+
+/* INICIO NOSOTROS */
+.bodyaboutus { 
+    background-image: url(../img/tandilback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.aboutustitle { 
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+
+}
+.titulosecundario{ 
+    text-align: center;
+    color: rgba(0, 0, 0, 0.67);
+
+}
+.mainlist { 
+    position: relative;
+
+
+} 
+.nosotros-lista  { 
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    list-style-type: none;
+    list-style: none;
+    position: absolute;
+    left: 25%;
+    margin-top: 45px;
+    color: black;
+
+}
+
+.lista-logos { 
+    font-size: 2rem;
+    position: absolute;
+    margin-top: 45px;
+    left: 20%;
+}
+.lista-logos li i {
+    color: rgba(255, 255, 0, 0.966) ;
+}
+
+/* INICIO SERVICIO TECNICO */
+
+.servicio-body { 
+    background-image: url(../img/car-garage-old-dirty.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.marcas-titulo { 
+    color:  rgba(255, 255, 0, 0.966) ;
+    font-size: 2rem;
+    text-align: center;
+    background-color: black;
+    width: 35%;
+    position: relative;
+    left: 450px;
+    border-radius: 15px;
+}
+
+
+.marcas { 
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+    display: inline-block;
+    max-width: 100%;
+    max-height: 10%;
+    margin-left: 70px;
+    margin-top: 25px;
+
+
+}
+.marcas img { 
+    width: 300px;
+    height: 300px;
+}
