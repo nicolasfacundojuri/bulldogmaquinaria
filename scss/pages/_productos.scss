@@ -1,0 +1,32 @@
+/* INICIO STORE */
+
+.body-productos { 
+    background: url(../img/carpenterbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tabla-maquinaria { 
+    background-color: rgba(245, 245, 220, 0.468);
+    margin-top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 10px 25px 10px 25px;
+    border: solid 5px  rgba(237, 237, 23, 0.826);
+    width: 100%;
+}
+
+thead { 
+    padding: 5px;
+    background-color:  rgba(237, 237, 23, 0.826);
+    color: black;
+
+}
+th, tbody, tr, td, tfoot { 
+    padding: 5px;
+
+}  
+tr td:hover{ 
+    background-color: black;
+}

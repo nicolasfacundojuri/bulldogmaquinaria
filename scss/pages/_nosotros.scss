@@ -1,0 +1,46 @@
+/* INICIO NOSOTROS */
+.bodyaboutus { 
+    background-image: url(../img/tandilback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.aboutustitle { 
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+
+}
+.titulosecundario{ 
+    text-align: center;
+    color: rgba(0, 0, 0, 0.67);
+
+}
+.mainlist { 
+    position: relative;
+
+
+} 
+.nosotros-lista  { 
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    list-style-type: none;
+    list-style: none;
+    position: absolute;
+    left: 25%;
+    margin-top: 45px;
+    color: black;
+
+}
+
+.lista-logos { 
+    font-size: 2rem;
+    position: absolute;
+    margin-top: 45px;
+    left: 20%;
+}
+.lista-logos li i {
+    color: rgba(255, 255, 0, 0.966) ;
+}
