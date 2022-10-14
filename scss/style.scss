@@ -1,5 +1,5 @@
 // Include any default variable overrides here (though functions won't be available)
-
+$warning:  rgb(232, 224, 11);
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
@@ -9,44 +9,3 @@
 @import "./pages/productos";
 @import "./pages/nosotros";
 @import "./pages/serviciotecnico";
-
-
-
-
-
-
-/* INICIO SERVICIO TECNICO */
-
-.servicio-body { 
-    background-image: url(../img/car-garage-old-dirty.jpg);
-    background-repeat:no-repeat;
-    background-size: cover;
-}
-
-.marcas-titulo { 
-    color:  rgba(255, 255, 0, 0.966) ;
-    font-size: 2rem;
-    text-align: center;
-    background-color: black;
-    width: 35%;
-    position: relative;
-    left: 450px;
-    border-radius: 15px;
-}
-
-
-.marcas { 
-    background-color: rgba(0, 0, 0, 0.37);
-    border-radius: 20px;
-    display: inline-block;
-    max-width: 100%;
-    max-height: 10%;
-    margin-left: 70px;
-    margin-top: 25px;
-
-
-}
-.marcas img { 
-    width: 300px;
-    height: 300px;
-}
